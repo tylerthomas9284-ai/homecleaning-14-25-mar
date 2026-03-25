@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apartment Cleaning Services - HomeShine Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">H</div>
+          <span class="logo-text">HomeShine Services</span>
+        </a>
+        <nav class="nav-desktop">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <a href="tel:8888946174" class="phone-link">
+            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            <span>888.894.6174</span>
+          </a>
+          <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+        </div>
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1543652782-e939f5c372a3?w=1200'); min-height: 400px;">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="text-white">
+        <h1 style="font-size: 3.75rem; margin-bottom: 1.5rem;">Apartment Cleaning Services</h1>
+        <p style="font-size: 1.25rem; max-width: 42rem; color: #d1d5db;">
+          Efficient cleaning tailored for apartments and condos
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Perfect for Apartment Living</h2>
+        <p class="section-subtitle">
+          Specialized cleaning services designed for smaller spaces
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2" style="gap: 2rem; max-width: 56rem; margin: 0 auto;">
+        <div class="card p-6">
+          <svg class="icon-xl checkmark" style="margin-bottom: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Quick & Efficient</h3>
+          <p style="color: #6b7280;">Optimized for apartment spaces</p>
+        </div>
+        <div class="card p-6">
+          <svg class="icon-xl checkmark" style="margin-bottom: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Affordable Rates</h3>
+          <p style="color: #6b7280;">Starting at just $79</p>
+        </div>
+        <div class="card p-6">
+          <svg class="icon-xl checkmark" style="margin-bottom: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Flexible Schedule</h3>
+          <p style="color: #6b7280;">Weekly, bi-weekly, or monthly</p>
+        </div>
+        <div class="card p-6">
+          <svg class="icon-xl checkmark" style="margin-bottom: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">All Supplies Included</h3>
+          <p style="color: #6b7280;">We bring everything needed</p>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 3rem;">
+        <a href="contact.html" class="btn btn-primary btn-lg">Get Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2024 HomeShine Services. All rights reserved.</div>
+        <div class="footer-links">
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

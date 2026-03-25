@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - HomeShine Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">H</div>
+          <span class="logo-text">HomeShine Services</span>
+        </a>
+
+        <nav class="nav-desktop">
+          <a href="index.html">Home</a>
+          <a href="about.html" class="active">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="tel:8888946174" class="phone-link">
+            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            <span>888.894.6174</span>
+          </a>
+          <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+        </div>
+
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="tel:8888946174" class="phone-link">
+          <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+          <span>888.894.6174</span>
+        </a>
+        <a href="contact.html" class="btn btn-primary" style="margin-top: 1rem;">Get a Free Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200'); min-height: 400px;">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="text-white">
+        <h1 style="font-size: 3.75rem; margin-bottom: 1.5rem;">About HomeShine Services</h1>
+        <p style="font-size: 1.25rem; max-width: 42rem; color: #d1d5db;">
+          Professional cleaning services with 15+ years of experience, serving homes and apartments with dedication and care.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Story Section -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-cols-2" style="align-items: center; gap: 4rem;">
+        <div>
+          <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Our Story</h2>
+          <p style="color: #4b5563; font-size: 1.125rem; line-height: 1.75; margin-bottom: 1rem;">
+            Founded in 2009, HomeShine Services started with a simple mission: to provide reliable, high-quality cleaning services that homeowners can trust. What began as a small team has grown into one of the most trusted cleaning services in the New York area.
+          </p>
+          <p style="color: #4b5563; font-size: 1.125rem; line-height: 1.75; margin-bottom: 1rem;">
+            We've built our reputation on consistency, professionalism, and attention to detail. Every member of our team is carefully trained and vetted to ensure they meet our high standards.
+          </p>
+          <p style="color: #4b5563; font-size: 1.125rem; line-height: 1.75; margin-bottom: 2rem;">
+            Today, we serve hundreds of satisfied customers, providing everything from regular home cleaning to deep cleaning services.
+          </p>
+          <a href="contact.html" class="btn btn-primary btn-lg">Get Started Today</a>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600" alt="Our Team" style="width: 100%; border-radius: 0.5rem; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="section bg-gray">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Core Values</h2>
+        <p class="section-subtitle">
+          The principles that guide everything we do
+        </p>
+      </div>
+
+      <div class="grid grid-cols-3" style="max-width: 75rem; margin: 0 auto;">
+        <div class="card p-8 text-center">
+          <svg class="icon-xl" style="margin: 0 auto 1.5rem; color: #0d9488;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+          </svg>
+          <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Our Mission</h3>
+          <p style="color: #6b7280; line-height: 1.75;">
+            To provide exceptional cleaning services that exceed expectations and create healthier living environments for our clients.
+          </p>
+        </div>
+
+        <div class="card p-8 text-center">
+          <svg class="icon-xl" style="margin: 0 auto 1.5rem; color: #0d9488;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+          <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Customer First</h3>
+          <p style="color: #6b7280; line-height: 1.75;">
+            We prioritize customer satisfaction above all else, ensuring every client receives personalized, reliable service.
+          </p>
+        </div>
+
+        <div class="card p-8 text-center">
+          <svg class="icon-xl" style="margin: 0 auto 1.5rem; color: #0d9488;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+          </svg>
+          <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Excellence</h3>
+          <p style="color: #6b7280; line-height: 1.75;">
+            We maintain the highest standards of quality in every job, from basic cleaning to deep sanitization.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Meet Our Team</h2>
+        <p class="section-subtitle">
+          Professional, trustworthy, and dedicated to your satisfaction
+        </p>
+      </div>
+
+      <div class="grid grid-cols-3" style="max-width: 75rem; margin: 0 auto;">
+        <div class="card text-center">
+          <div style="padding: 2rem 2rem 0;">
+            <div style="width: 120px; height: 120px; background: linear-gradient(135deg, #0d9488, #10b981); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 600;">
+              J
+            </div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Jennifer Smith</h3>
+            <p style="color: #0d9488; margin-bottom: 1rem;">Founder & CEO</p>
+          </div>
+          <div style="padding: 0 2rem 2rem;">
+            <p style="color: #6b7280; line-height: 1.75;">
+              With over 15 years in the cleaning industry, Jennifer founded HomeShine to bring professional, reliable service to every home.
+            </p>
+          </div>
+        </div>
+
+        <div class="card text-center">
+          <div style="padding: 2rem 2rem 0;">
+            <div style="width: 120px; height: 120px; background: linear-gradient(135deg, #0d9488, #10b981); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 600;">
+              M
+            </div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Michael Rodriguez</h3>
+            <p style="color: #0d9488; margin-bottom: 1rem;">Operations Manager</p>
+          </div>
+          <div style="padding: 0 2rem 2rem;">
+            <p style="color: #6b7280; line-height: 1.75;">
+              Michael ensures every cleaning meets our high standards and that our team is trained in the latest techniques.
+            </p>
+          </div>
+        </div>
+
+        <div class="card text-center">
+          <div style="padding: 2rem 2rem 0;">
+            <div style="width: 120px; height: 120px; background: linear-gradient(135deg, #0d9488, #10b981); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 600;">
+              S
+            </div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Sarah Chen</h3>
+            <p style="color: #0d9488; margin-bottom: 1rem;">Customer Relations</p>
+          </div>
+          <div style="padding: 0 2rem 2rem;">
+            <p style="color: #6b7280; line-height: 1.75;">
+              Sarah is dedicated to making sure every customer has an exceptional experience from booking to completion.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section bg-gray">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Customers Choose Us</h2>
+      </div>
+
+      <div class="grid grid-cols-2" style="max-width: 64rem; margin: 0 auto; gap: 2rem;">
+        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+          <svg class="icon-lg checkmark" style="flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Experienced Professionals</h3>
+            <p style="color: #6b7280;">Our team consists of trained, background-checked cleaning experts</p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+          <svg class="icon-lg checkmark" style="flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Eco-Friendly Products</h3>
+            <p style="color: #6b7280;">We use safe, environmentally responsible cleaning solutions</p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+          <svg class="icon-lg checkmark" style="flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Flexible Scheduling</h3>
+            <p style="color: #6b7280;">Book at your convenience with our flexible scheduling options</p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+          <svg class="icon-lg checkmark" style="flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Satisfaction Guaranteed</h3>
+            <p style="color: #6b7280;">We're not satisfied until you're completely happy with our service</p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+          <svg class="icon-lg checkmark" style="flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Affordable Pricing</h3>
+            <p style="color: #6b7280;">Transparent, competitive rates with no hidden fees</p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 1rem;">
+          <svg class="icon-lg checkmark" style="flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Insured & Bonded</h3>
+            <p style="color: #6b7280;">Your home and belongings are fully protected</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section bg-gradient-teal text-white">
+    <div class="container text-center">
+      <h2 style="font-size: 3rem; margin-bottom: 1.5rem;">Join Our Growing Family</h2>
+      <p style="font-size: 1.25rem; margin-bottom: 2.5rem; max-width: 42rem; margin-left: auto; margin-right: auto; color: #ccfbf1;">
+        Experience the HomeShine difference. Let us take care of the cleaning so you can focus on what matters most.
+      </p>
+      <a href="contact.html" class="btn btn-secondary btn-lg">Request a Free Quote</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;">
+            <div class="logo-icon">H</div>
+            <span class="logo-text" style="color: white;">HomeShine Services</span>
+          </div>
+          <p style="font-size: 0.875rem; margin-bottom: 1rem;">
+            Professional home cleaning services you can trust. Making homes cleaner, healthier, and more comfortable.
+          </p>
+          <div class="social-links">
+            <a href="#" style="color: #d1d5db; transition: color 0.3s;">
+              <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="#" style="color: #d1d5db; transition: color 0.3s;">
+              <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+              </svg>
+            </a>
+            <a href="#" style="color: #d1d5db; transition: color 0.3s;">
+              <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="house-cleaning.html">House Cleaning</a></li>
+            <li><a href="apartment-cleaning.html">Apartment Cleaning</a></li>
+            <li><a href="deep-cleaning.html">Deep Cleaning</a></li>
+            <li><a href="services.html">Move-In/Move-Out</a></li>
+            <li><a href="services.html">Recurring Cleaning</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <ul>
+            <li style="display: flex; align-items: center; gap: 0.75rem;">
+              <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <a href="tel:8888946174">888.894.6174</a>
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.75rem;">
+              <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <a href="mailto:info@homeshineservices.com">info@homeshineservices.com</a>
+            </li>
+            <li style="display: flex; align-items: flex-start; gap: 0.75rem;">
+              <svg class="icon" style="flex-shrink: 0; margin-top: 0.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span>25 Union Square W<br>New York, NY 10003</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2024 HomeShine Services. All rights reserved.</div>
+        <div class="footer-links">
+          <a href="terms.html">Terms & Conditions</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
